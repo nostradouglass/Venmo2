@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/navigation_item_1"
+            android:checked="true"
+            android:title="$8.00 in Venmo" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_search"
+            android:id="@+id/nav_search"
+            android:title="@string/search_people"
+            />
+
+        <item
+            android:icon="@drawable/ic_credit_card"
+            android:id="@+id/nav_venmo_card"
+            android:title="@string/venmo_card"
+            />
+        <item
+            android:icon="@drawable/ic_scan"
+            android:id="@+id/nav_scan_code"
+            android:title="@string/scan_code"
+            />
+        <item
+            android:icon="@drawable/ic_scan"
+            android:id="@+id/nav_payment_methods"
+            android:title="@string/payment_methods"
+            />
+        <item
+            android:icon="@drawable/ic_credit_card"
+            android:id="@+id/nav_incomplete"
+            android:title="@string/incomplete"
+            />
+        <item
+            android:icon="@drawable/ic_money"
+            android:id="@+id/nav_purchases"
+            android:title="@string/purchases"
+            />
+
+        <item
+            android:icon="@drawable/ic_help"
+            android:id="@+id/nav_get_help"
+            android:title="@string/get_help"
+            />
+
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_settings"
+            android:title="@string/settings"
+            />
+
+    </group>
+
+
+
+
+
+
+
+</menu>
