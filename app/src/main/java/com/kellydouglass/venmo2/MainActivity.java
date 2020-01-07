@@ -39,13 +39,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-
-        FragmentManager fragmentManager = this.getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        TabsFragment tabsFragment = new TabsFragment();
-        fragmentTransaction.add(R.id.tabFragment, tabsFragment);
-        fragmentTransaction.commit();
-
     }
 
 
