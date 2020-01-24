@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2;
+package com.kellydouglass.venmo2.Utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.kellydouglass.venmo2.Models.Me;
+import com.kellydouglass.venmo2.R;
 
 import java.util.List;
 

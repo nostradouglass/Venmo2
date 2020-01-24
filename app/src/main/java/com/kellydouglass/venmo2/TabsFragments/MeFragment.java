@@ -14,9 +14,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kellydouglass.venmo2.Me;
+import com.kellydouglass.venmo2.Models.Me;
 import com.kellydouglass.venmo2.R;
-import com.kellydouglass.venmo2.TransactionsRecyclerAdapter;
+import com.kellydouglass.venmo2.Utils.TransactionsRecyclerAdapter;
 
 import java.util.ArrayList;
 

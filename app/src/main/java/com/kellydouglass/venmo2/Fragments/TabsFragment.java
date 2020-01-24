@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2;
+package com.kellydouglass.venmo2.Fragments;
 
 
 import android.content.Context;
@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.material.tabs.TabLayout;
+import com.kellydouglass.venmo2.R;
 import com.kellydouglass.venmo2.TabsFragments.FriendsFragment;
 import com.kellydouglass.venmo2.TabsFragments.MeFragment;
 import com.kellydouglass.venmo2.TabsFragments.PublicFragment;

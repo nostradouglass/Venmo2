@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2;
+package com.kellydouglass.venmo2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import com.kellydouglass.venmo2.R;
 
 public class Incomplete extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2;
+package com.kellydouglass.venmo2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -7,12 +7,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class GetHelp extends AppCompatActivity {
+import com.kellydouglass.venmo2.R;
+
+public class VenmoCard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_help);
+        setContentView(R.layout.activity_venmo_card);
 
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);

@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Settings" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".GetHelp" android:parentActivityName=".MainActivity" />
-        <activity android:name=".Purchases" android:parentActivityName=".MainActivity" />
-        <activity android:name=".Incomplete"  android:parentActivityName=".MainActivity" />
-        <activity android:name=".PaymentMethods" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".ScanCard" android:parentActivityName=".MainActivity" />
-        <activity android:name=".VenmoCard" android:parentActivityName=".MainActivity" />
-        <activity android:name=".SearchPeople"
-            android:parentActivityName=".MainActivity"
+        <activity android:name=".Activities.Settings" android:parentActivityName=".Activities.MainActivity"/>
+        <activity android:name=".Activities.GetHelp" android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.Purchases" android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.Incomplete"  android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.PaymentMethods" android:parentActivityName=".Activities.MainActivity"/>
+        <activity android:name=".Activities.ScanCard" android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.VenmoCard" android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.SearchPeople"
+            android:parentActivityName=".Activities.MainActivity"
             />
-        <activity android:name=".MainActivity"
+        <activity android:name=".Activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             >
             <intent-filter>
