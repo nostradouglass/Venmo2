@@ -97,5 +97,4 @@ public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<Transactio
         }
     }
 
-
 }
