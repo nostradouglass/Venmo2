@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.TabsFragments;
+package com.kellydouglass.venmo2.tabsFragments;
 
 
 import android.os.Bundle;
@@ -15,10 +15,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kellydouglass.venmo2.Models.Me;
+import com.kellydouglass.venmo2.models.Me;
 import com.kellydouglass.venmo2.R;
-import com.kellydouglass.venmo2.Utils.HttpTransactionApi;
-import com.kellydouglass.venmo2.Utils.TransactionsRecyclerAdapter;
+import com.kellydouglass.venmo2.utils.HttpTransactionApi;
+import com.kellydouglass.venmo2.utils.TransactionsRecyclerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.kellydouglass.venmo2.Utils;
+package com.kellydouglass.venmo2.utils;
 
-import com.kellydouglass.venmo2.Models.Me;
+import com.kellydouglass.venmo2.models.Me;
 
 import java.util.List;
 

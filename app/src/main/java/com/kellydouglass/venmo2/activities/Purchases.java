@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.Activities;
+package com.kellydouglass.venmo2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -9,12 +9,12 @@ import android.view.MenuItem;
 
 import com.kellydouglass.venmo2.R;
 
-public class GetHelp extends AppCompatActivity {
+public class Purchases extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_help);
+        setContentView(R.layout.activity_purchases);
 
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);

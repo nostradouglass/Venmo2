@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.Activities;
+package com.kellydouglass.venmo2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -9,12 +9,12 @@ import android.view.MenuItem;
 
 import com.kellydouglass.venmo2.R;
 
-public class PaymentMethods extends AppCompatActivity {
+public class Settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment_methods);
+        setContentView(R.layout.activity_settings);
 
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);

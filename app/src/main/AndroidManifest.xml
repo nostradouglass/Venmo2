@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.Settings" android:parentActivityName=".Activities.MainActivity"/>
-        <activity android:name=".Activities.GetHelp" android:parentActivityName=".Activities.MainActivity" />
-        <activity android:name=".Activities.Purchases" android:parentActivityName=".Activities.MainActivity" />
-        <activity android:name=".Activities.Incomplete"  android:parentActivityName=".Activities.MainActivity" />
-        <activity android:name=".Activities.PaymentMethods" android:parentActivityName=".Activities.MainActivity"/>
-        <activity android:name=".Activities.ScanCard" android:parentActivityName=".Activities.MainActivity" />
-        <activity android:name=".Activities.VenmoCard" android:parentActivityName=".Activities.MainActivity" />
-        <activity android:name=".Activities.SearchPeople"
-            android:parentActivityName=".Activities.MainActivity"
+        <activity android:name=".activities.Settings" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.GetHelp" android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.Purchases" android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.Incomplete"  android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.PaymentMethods" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.ScanCard" android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.VenmoCard" android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.SearchPeople"
+            android:parentActivityName=".activities.MainActivity"
             />
-        <activity android:name=".Activities.MainActivity"
+        <activity android:name=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             >
             <intent-filter>

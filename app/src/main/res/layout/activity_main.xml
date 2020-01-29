@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.MainActivity"
+    tools:context=".activities.MainActivity"
     android:id="@+id/drawer_layout"
     >
 
@@ -23,7 +23,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
 <fragment
-    android:name="com.kellydouglass.venmo2.Fragments.TabsFragment"
+    android:name="com.kellydouglass.venmo2.fragments.TabsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/tabFragment" />

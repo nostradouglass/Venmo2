@@ -1,7 +1,5 @@
-package com.kellydouglass.venmo2.Models;
+package com.kellydouglass.venmo2.models;
 
-
-import java.util.ArrayList;
 
 public class Me {
 

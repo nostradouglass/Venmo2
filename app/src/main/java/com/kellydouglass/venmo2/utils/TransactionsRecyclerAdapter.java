@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.Utils;
+package com.kellydouglass.venmo2.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,10 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kellydouglass.venmo2.Models.Me;
+import com.kellydouglass.venmo2.models.Me;
 import com.kellydouglass.venmo2.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<TransactionsRecyclerAdapter.ViewHolder> {
@@ -69,14 +68,14 @@ public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<Transactio
         public TextView nameTextView;
         public Button messageButton;
 
-        public ImageView userImage;
-        public TextView youPaidText;
-        public TextView amountText;
-        public TextView daysText;
-        public ImageView transferTypeImage;
-        public TextView transactionTypeText;
-        public ImageView heartImage;
-        public ImageView messageImage;
+        private ImageView userImage;
+        private TextView youPaidText;
+        private TextView amountText;
+        private TextView daysText;
+        private ImageView transferTypeImage;
+        private TextView transactionTypeText;
+        private ImageView heartImage;
+        private ImageView messageImage;
 
 
 

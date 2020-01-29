@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.TabsFragments;
+package com.kellydouglass.venmo2.tabsFragments;
 
 
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.Activities;
+package com.kellydouglass.venmo2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;

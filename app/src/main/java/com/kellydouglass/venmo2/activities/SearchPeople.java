@@ -1,4 +1,4 @@
-package com.kellydouglass.venmo2.Activities;
+package com.kellydouglass.venmo2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -9,12 +9,12 @@ import android.view.MenuItem;
 
 import com.kellydouglass.venmo2.R;
 
-public class Incomplete extends AppCompatActivity {
+public class SearchPeople extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_incomplete);
+        setContentView(R.layout.activity_search_people);
 
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
