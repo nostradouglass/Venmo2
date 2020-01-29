@@ -19,6 +19,7 @@ import com.kellydouglass.venmo2.R;
 import com.kellydouglass.venmo2.Utils.TransactionsRecyclerAdapter;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -45,7 +46,7 @@ public class MeFragment extends Fragment {
         ArrayList<Me> meList = new ArrayList<>();
 
         RecyclerView rvMe = view.findViewById(R.id.meView);
-        rvMe.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
+        rvMe.addItemDecoration(new DividerItemDecoration(Objects.requireNonNull(getActivity()), DividerItemDecoration.VERTICAL));
         rvMe.setHasFixedSize(true);
 
         meList.add( new Me("Kelly", "Douglass", 30.50, 4, "/imageLocation"));
