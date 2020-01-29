@@ -14,14 +14,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.kellydouglass.venmo2.Models.Me;
 import com.kellydouglass.venmo2.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<TransactionsRecyclerAdapter.ViewHolder> {
 
-    private List<Me> mMe;
+    private List<Me> meList;
 
     public TransactionsRecyclerAdapter(List<Me> me) {
-        mMe = me;
+        meList = me;
     }
 
 
@@ -34,6 +35,7 @@ public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<Transactio
 
         View contactView = inflater.inflate(R.layout.transactions_row_item, parent, false);
 
+
         ViewHolder viewHolder = new ViewHolder(contactView);
         return viewHolder;
 
@@ -42,22 +44,21 @@ public class TransactionsRecyclerAdapter extends RecyclerView.Adapter<Transactio
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Me currentMeItem = mMe.get(position);
+        Me currentMeItem = meList.get(position);
 
         TextView textView = holder.youPaidText;
 
-        String youPaidFull = "You Paid " + currentMeItem.getFirstName() + " " + currentMeItem.getLastName();
+        String youPaidFull = "You Paid " + currentMeItem.getPaidTo() ;
 
-        String amountinString = String.valueOf(currentMeItem.getAmount());
 
         holder.youPaidText.setText(youPaidFull);
-        holder.amountText.setText("$" + amountinString);
-
+        holder.amountText.setText("$" + currentMeItem.getAmountPaid() );
+        holder.transactionTypeText.setText(currentMeItem.getPaymentText());
     }
 
     @Override
     public int getItemCount() {
-        return mMe.size();
+        return meList.size();
     }
 
 

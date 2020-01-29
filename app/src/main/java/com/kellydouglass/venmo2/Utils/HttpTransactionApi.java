@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface HttpTransactionApi {
 
-    @GET("posts")
-    Call<List<Me>> getPosts();
+    @GET("me")
+    Call<List<Me>> getMeTransactions();
 
 }
